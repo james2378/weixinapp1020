@@ -1,0 +1,93 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/shop-recharge/recharge",
+    "pages/shop-cart/shop-cart",
+    "pages/shop-order-confirm/shop-order-confirm",
+    "pages/shop-address/shop-address",
+    "pages/shop-address-detail/shop-address-detail",
+    "pages/shop-order/shop-order",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/mendianxinxi/list",
+    "pages/mendianxinxi/add-or-update",
+    "pages/mendianxinxi/detail",
+    "pages/yuangongxinxi/list",
+    "pages/yuangongxinxi/add-or-update",
+    "pages/yuangongxinxi/detail",
+    "pages/peijianxinxi/list",
+    "pages/peijianxinxi/add-or-update",
+    "pages/peijianxinxi/detail",
+    "pages/baoyangxinxi/list",
+    "pages/baoyangxinxi/add-or-update",
+    "pages/baoyangxinxi/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/discussmendianxinxi/list",
+    "pages/discussmendianxinxi/add-or-update",
+    "pages/discussmendianxinxi/detail",
+    "pages/discusspeijianxinxi/list",
+    "pages/discusspeijianxinxi/add-or-update",
+    "pages/discusspeijianxinxi/detail",
+    "pages/discussbaoyangxinxi/list",
+    "pages/discussbaoyangxinxi/add-or-update",
+    "pages/discussbaoyangxinxi/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "汽车保养系统小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#A98175",
+    "selectedColor": "#2E4E7E",
+    "borderStyle": "white",
+    "backgroundColor": "#FFC773",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mendianxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "门店信息"
+      },
+      {
+        "pagePath": "pages/peijianxinxi/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "配件信息"
+      },
+      {
+        "pagePath": "pages/baoyangxinxi/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "保养信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
